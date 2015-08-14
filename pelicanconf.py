@@ -10,7 +10,7 @@ PATH = 'content'
 THEME_STATIC_DIR = ''
 
 TIMEZONE = 'America/New_York'
-
+DEFAULT_DATE_FORMAT = "%B %d, %Y"
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -52,3 +52,18 @@ HEADER_USE_LOGO_ONLY = False  # Don't use header text, just use the logo alone
 # Path from the root to a square (minimum 128⨉128px) version of the logo
 NAV_LOGO_IMG = HEADER_LOGO_IMG
 SUBTITLE = "Who says programming can't be romantic?"
+
+# Configure the audio base audio URL. The full URL will be constructed as a
+# path starting with this URL. For example, if in the article metadata you
+# specify the `audio` value as `episode/05.mp3`, and this value were set to
+# `http://cdn.my-site.com`, the full URL used in the template would be
+# `https://cdn.my-site.com/episode/05.mp3`. It may be helpful to override this
+# value in the production configuration (publishconf.py) and use local URLs
+# for development or for validating a show before publishing it.
+AUDIO_BASE_URL = '//cdn.sap-py.com'
+
+# [Indie-web](https://indiewebcamp.com) identity setup
+IDENTITY = {'Chris': 'http://www.chriskrycho.com/',
+            'Jaimie': 'http://www.jaimiekrycho.com/',
+            'Twitter': 'https://www.twitter.com/sappypodcast',
+            'App.net': 'https://alpha.app.net/sappy'}

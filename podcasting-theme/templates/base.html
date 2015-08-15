@@ -15,24 +15,30 @@
   {# Allow item-specific styles #}
   {% block item_styles %}{% endblock %}
   {# Common scripts #}
+  <script type="text/javascript">
+  var customPath = "";  // Set the directory to the root.
+  </script>
+  <script type="text/javascript" src="/js/fonts.js"></script>
   {# Allow item-specific scripts #}
   {% block item_scripts %}{% endblock %}
 </head>
 <body>
   <nav class="main_nav">
-    <ul>
-      <li class="nav_item nav_logo"><img src="{{ NAV_LOGO_IMG }}" class="nav_logo_img" style="max-width: 64px; max-height: 64px"></li>
+    <ul class="items_list">
+      <li class="nav_item nav_logo"><a href="{{ SITEURL }}"><img src="{{ NAV_LOGO_IMG }}" class="nav_logo_img"></a></li>
       {% for page in pages %}
         <li class="nav_item"><a href="{{ page.url }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>
-  <header>
-    <h1><a href="/">
-      <img src="{{ HEADER_LOGO_IMG }}">
-      <span class="sitename{% if HEADER_USE_LOGO_ONLY %} disabled{% endif %}">{{ SITENAME }}</span>
-    </a></h1>
-    <h2>{{ SUBTITLE }}</h2>
+  <header class="page_header">
+    <a href="{{ SITEURL }}">
+      <h1 class="logotype">
+        <img class="logo" src="{{ HEADER_LOGO_IMG }}">
+        <span class="sitename{% if HEADER_USE_LOGO_ONLY %} disabled{% endif %}">{{ SITENAME }}</span>
+      </h1>
+      <h2 class="subtitle">{{ SUBTITLE }}</h2>
+    </a>
   </header>
   <div id="episodes">
     {% block content %}{% endblock %}

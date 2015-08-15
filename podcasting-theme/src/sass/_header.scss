@@ -1,0 +1,35 @@
+.page_header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: $header_bg;
+    padding: modular-scale(0) 0;
+
+    a {
+        text-decoration: none;
+    }
+
+    .logo, .logotype { vertical-align: middle; }
+
+    .logo {
+        max-height: modular-scale(1);
+    }
+
+    .logotype {
+        font-family: $special;
+        font-size: modular-scale(3);
+        padding: 0;
+        margin: 0;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .subtitle {
+        font-family: $special;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+    }
+}

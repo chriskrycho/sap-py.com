@@ -1,0 +1,46 @@
+$nav_main_height: modular-scale(1);
+$nav_vertical_padding: modular-scale(-1);
+$nav_height: $nav_main_height + 2 * $nav_vertical_padding;
+
+.main_nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: $nav_bg;
+    color: $nav_fg;
+
+    .items_list {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav_item {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0;
+
+        a {
+            color: $nav_fg;
+            display: block;
+            vertical-align: middle;
+            height: $nav_main_height;
+            line-height: $nav_main_height;
+            margin: 0;
+            padding: $nav_vertical_padding modular-scale(-1);
+
+            &:hover,
+            &:active {
+                color: $nav_hover_fg;
+                background: $nav_hover_bg;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.nav_logo_img {
+    max-height: $nav_main_height;
+    max-width: $nav_main_height;
+}

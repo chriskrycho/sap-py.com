@@ -1,0 +1,10 @@
+a, a:visited {
+    color: $main_link;
+    text-decoration: none;
+
+    &:hover,
+    &:active {
+        color: $main_link_hover;
+        text-decoration: underline;
+    }
+}

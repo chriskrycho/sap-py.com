@@ -1,6 +1,7 @@
 # -- SASS bits -- #
 .sass-cache/
 *.css.map
+bourbon/
 
 # -- Python -- #
 .python-version

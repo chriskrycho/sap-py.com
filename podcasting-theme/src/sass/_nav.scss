@@ -1,3 +1,6 @@
+@import "bourbon/bourbon";
+@import "variables";
+
 $nav_main_height: modular-scale(1);
 $nav_vertical_padding: modular-scale(-1);
 $nav_height: $nav_main_height + 2 * $nav_vertical_padding;

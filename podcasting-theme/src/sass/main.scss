@@ -1,9 +1,5 @@
-// Set some good defaults and make Bourbon available.
+// Set some good defaults.
 @import "normalize";
-@import "bourbon/bourbon";
-
-// Easily customized rules
-@import "variables";
 
 // Basic typographic settings and site-wide rules
 @import "typography";

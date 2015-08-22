@@ -1,15 +1,4 @@
 {% extends "base.html" %}
 {% block content %}
-<article class="episode">
-  <h1>{{ article.title }}</h1>
-  <section class="meta">
-  <section class="content">
-    <audio controls preload="metadata" src="{{ AUDIO_BASE_URL }}/{{ article.audio }}">
-      {% if article.transcript %}
-        <track kind="captions" src="{{ article.transcript }}" srclang="en" label="English">
-      {% endif %}
-    </audio>
-    {{ article.summary }}
-  </section>
-</article>
+{% include "includes/article.html" %}
 {% endblock %}

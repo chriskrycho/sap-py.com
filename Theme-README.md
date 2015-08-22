@@ -13,7 +13,7 @@ configuration in `pelicanconf.py`:
 import sys
 import os
 sys.path.append(os.getcwd())
-import podcasting_theme
+from podcasting_theme import *
 ```
 
 This will add the `podcasting_theme.py` file's to the configuration so that it

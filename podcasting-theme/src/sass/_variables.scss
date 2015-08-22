@@ -2,20 +2,21 @@
 
 // Typographical stack
 $serif: Georgia, serif;
-$sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans: "Source Sans Pro", Helvetica, Arial, sans-serif;
 $special: Flux, "Source Code Pro", "Consolas", monospace;
 
 // Base colors, which can be reused throughout
-$prim: RGBA(244, 230, 242, 1);
-$cameo: RGBA(206, 158, 133, 1);
-$purple_mountain_majesty: RGBA(153, 128, 190, 1);
-$dorado: RGBA(111, 88, 83, 1);
-$onyx: RGBA(20, 19, 14, 1);
-$desert_storm: RGBA(250, 250, 248, 1);
+$prim: rgb(244, 230, 242);
+$cameo: rgb(206, 158, 133);
+$purple_mountain_majesty: rgb(153, 128, 190);
+$dorado: rgb(111, 88, 83);
+$onyx: rgb(20, 19, 14);
+$desert_storm: rgb(250, 250, 248);
 
-// Applying the colors to the theme
+// Apply the colors to the theme.
 $main_bg: $desert_storm;
 $main_fg: $onyx;
+$main_heading: $dorado;
 $main_link: $purple_mountain_majesty;
 $main_link_hover: $cameo;
 
@@ -24,17 +25,22 @@ $nav_fg: $prim;
 $nav_hover_bg: $prim;
 $nav_hover_fg: $purple_mountain_majesty;
 
-$header_bg: $prim;
+$header_bg: $desert_storm;
+$header_fg: $dorado;
+$header_link: $purple_mountain_majesty;
+$header_link_hover: $purple_mountain_majesty;
+$header_shadow: $onyx;
 
 $footer_bg: $purple_mountain_majesty;
-$footer_fg: $prim;
-$footer_link: $dorado;
-$footer_link_hover: $prim;
+$footer_fg: $desert_storm;
+$footer_link: $prim;
+$footer_link_hover: $desert_storm;
 
 // Base text size -- defaults to 16px. Set on the `html` element.
 $text-size: 100%;
 $line-height: 1.5;
 
-// Set up the modular scale
-$modular-scale-ratio: $golden;
-$modular-scale-base: 1em;
+// Set up the modular scale, using a perfect fifth for the scale and a major
+// third for the threads. 🎶Sap.py🎶
+$modular-scale-ratio: $perfect-fifth;
+$modular-scale-base: 1em 1.25em;

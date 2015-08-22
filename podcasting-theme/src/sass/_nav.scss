@@ -20,6 +20,7 @@ $nav_height: $nav_main_height + 2 * $nav_vertical_padding;
         display: inline-block;
         vertical-align: top;
         padding: 0;
+        overflow: hidden;
 
         a {
             color: $nav_fg;
@@ -37,6 +38,19 @@ $nav_height: $nav_main_height + 2 * $nav_vertical_padding;
                 text-decoration: none;
             }
         }
+
+    }
+}
+
+// Styles for hiding and showing the home icon.
+.nav_logo {
+    width: 3 * $nav_main_height;
+    @include transition(all 0.5s ease);
+
+    &.hidden {
+        width: 0;
+        padding: 0;
+        @include transition(all 0.3s ease);
     }
 }
 

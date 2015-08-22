@@ -1,0 +1,29 @@
+.episode {
+    max-width: modular-scale(19);
+    margin: 0 auto modular-scale(8);
+
+    .episode_title {
+        font: {
+            family: $special;
+            size: modular-scale(4);
+            weight: normal;
+        }
+        color: $main_heading;
+        text-align: center;
+    }
+
+    .media {
+        $width: strip-units(modular-scale(-2));
+        width: percentage($width);
+        margin: 0 auto;
+        display: block;
+    }
+
+    .content {
+        font: {
+            weight: 300;
+            size: modular-scale(2);
+        }
+        text-align: left;
+    }
+}

@@ -4,6 +4,10 @@
   {# Common metadata #}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon.png">
+
   {% for link in IDENTITY %}
   <link rel="me" href="{{ IDENTITY[link] }}">
   {% endfor %}
@@ -25,14 +29,14 @@
 <body>
   <nav class="main_nav">
     <ul class="items_list">
-      <li class="nav_item nav_logo"><a href="{{ SITEURL }}"><img src="{{ NAV_LOGO_IMG }}" class="nav_logo_img"></a></li>
+      <li class="nav_item nav_logo"><a href="/"><img src="{{ NAV_LOGO_IMG }}" class="nav_logo_img"></a></li>
       {% for page in pages %}
-        <li class="nav_item"><a href="{{ page.url }}">{{ page.title }}</a></li>
+        <li class="nav_item"><a href="/{{ page.url }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
   </nav>
   <header class="page_header">
-    <a href="{{ SITEURL }}">
+    <a href="/">
       <h1 class="logotype">
         <img class="logo" src="{{ HEADER_LOGO_IMG }}">
         <span class="sitename{% if HEADER_USE_LOGO_ONLY %} disabled{% endif %}">{{ SITENAME }}</span>
@@ -43,6 +47,22 @@
   <div id="episodes">
     {% block content %}{% endblock %}
   </div>
-  <footer>
+  <footer class="page_footer">
+    <section id="footer_follow" class="">
+      <h2 class="section-title">Follow the Show!</h2>
+      <ul>
+        {% for f in FOLLOW %}
+          <li><a href="{{ FOLLOW[f] }}">{{ f }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section id="footer_social" class="">
+      <h2 class="section-title">Follow the Hosts!</h2>
+      <ul>
+        {% for id in IDENTITY %}
+          <li><a href="{{ IDENTITY[id] }}">{{ id }}</a></li>
+        {% endfor %}
+      </ul>
+    </section>
   </footer>
 </body>

@@ -1,0 +1,14 @@
+<article class="episode">
+  <h1 class="episode_title">{{ article.title }}</h1>
+  <section class="meta">{{ article.locale_date }}</section>
+  <section class="content">
+    <audio class="media"
+           controls preload="metadata"
+           src="{{ AUDIO_BASE_URL }}/{{article.audio }}">
+      {% if article.transcript %}
+        <track kind="captions" src="{{ article.transcript }}" srclang="en" label="English">
+      {% endif %}
+    </audio>
+    {{ article.content }}
+  </section>
+</article>

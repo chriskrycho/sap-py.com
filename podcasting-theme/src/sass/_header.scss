@@ -1,28 +1,57 @@
 .page_header {
     display: block;
+    position: relative;
     width: 100%;
     text-align: center;
     background: $header_bg;
     padding: modular-scale(0) 0;
+    color: $header_fg;
 
-    a {
+    a, a:visited {
         text-decoration: none;
+        color: $header_link;
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+            color: $header_link_hover;
+        }
     }
 
-    .logo, .logotype { vertical-align: middle; }
+    .logo, .logotype {
+        vertical-align: middle;
+        position: relative;
+        @include transition(all 0.5s ease-in);
+    }
 
     .logo {
-        max-height: modular-scale(1);
+        top: modular-scale(-8);
+        max-height: modular-scale(3);
     }
 
     .logotype {
         font-family: $special;
-        font-size: modular-scale(3);
+        font-size: modular-scale(7);
         padding: 0;
         margin: 0;
+        top: modular-scale(-9);
+        text-shadow: modular-scale(-20) modular-scale(-20) modular-scale(-16)
+                     lighten($header_shadow, 60%);
 
         a {
             text-decoration: none;
+        }
+    }
+
+    &:hover {
+        .logo, .logotype {
+            top: modular-scale(-10);
+            @include transition(all 0.3s ease-out);
+        }
+
+        .logotype {
+            text-shadow: modular-scale(-16) modular-scale(-16) modular-scale(-12)
+                         lighten($header_shadow, 60%);
         }
     }
 
@@ -30,6 +59,6 @@
         font-family: $special;
         font-weight: normal;
         padding: 0;
-        margin: 0;
+        margin: 1em 0 0;
     }
 }

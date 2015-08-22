@@ -1,0 +1,23 @@
+.page_footer {
+    min-height: 20vh;
+    background: $footer_bg;
+    color: $footer_fg;
+    width: 100%;
+    font-size: modular-scale(1);
+
+    a, a:visited {
+        color: $footer_link;
+
+        &:hover, &:active {
+            color: $footer_link_hover;
+        }
+    }
+
+    .section-title {
+        font: {
+            size: modular-scale(2);
+            weight: normal;
+            family: $special;
+        }
+    }
+}

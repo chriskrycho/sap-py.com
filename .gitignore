@@ -44,3 +44,11 @@ cache
 
 # -- Theme -- #
 bourbon
+
+# -- IDE/editor files -- #
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/inspectionProfiles
+.idea/copyright
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Sap.py</title>
+        <link>http://www.sap-py.com</link>
+        <description>A husband and wife talk about the wife's experience learning Python. Who says programming can't be romantic?</description>
+        <generator>Feeder 2.5.12(2294); Mac OS X Version 10.10.5 (Build 14F27) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <lastBuildDate>Sun, 23 Aug 2015 22:06:13 -0400</lastBuildDate>
+        <atom:link href="http://www.sap-py.com/feed4.xml" rel="self" type="application/rss+xml"/>
+        <itunes:author>Chris and Jaimie Krycho</itunes:author>
+        <itunes:subtitle>Who says programming can’t be romantic?</itunes:subtitle>
+        <itunes:keywords>python,marriage,romance,programming</itunes:keywords>
+        <itunes:image href="http://www.sap-py.com/pythons_wbg_1400.png"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>Chris and Jaimie Krycho</itunes:name>
+            <itunes:email>hello@sap-py.com</itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:category text="Technology">
+            <itunes:category text="Software How-To"/>
+        </itunes:category>
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Personal Journals"/>
+        </itunes:category>
+        <itunes:category text="Kids &amp; Family"/>
+    </channel>
+</rss>

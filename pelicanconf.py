@@ -27,12 +27,18 @@ STATIC_PATHS = ['images', 'root']
 # Redirect `root` files to the root of the output.
 EXTRA_PATH_METADATA = {'root/CNAME': {'path': 'CNAME'},
                        'root/favicon.ico': {'path': 'favicon.ico'},
+                       'root/sap-py.xml': {'path': 'feed.xml'},
                        'root/favicon.png': {'path': 'favicon.png'},
                        'root/robots.txt': {'path': 'robots.txt'},
                        'root/.nojekyll': {'path': '.nojekyll'}}
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 # Plugin (mostly just Pandoc!) configuration
 PLUGIN_PATHS = ['../../pelican-plugins']

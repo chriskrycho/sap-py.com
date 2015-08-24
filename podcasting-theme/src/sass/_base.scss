@@ -2,11 +2,6 @@
 @import "variables";
 
 
-img {
-    max-height: 100%;
-    max-width: 100%;
-}
-
 html {
     font-size: $text-size;
 }
@@ -24,4 +19,14 @@ a {
     &:hover {
         @include transition(all 0.3s ease-out);
     }
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+figure {
+    margin: modular-scale(0) modular-scale(4);
+    text-align: center;
 }

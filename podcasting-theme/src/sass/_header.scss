@@ -1,4 +1,5 @@
 @import "bourbon/bourbon";
+@import "variables";
 
 .page_header {
     display: block;
@@ -32,7 +33,10 @@
     }
 
     .logotype {
-        font-family: $special;
+        font:{
+            family: $special;
+            weight: normal;
+        }
         font-size: modular-scale(7);
         padding: 0;
         margin: 0;
@@ -40,27 +44,39 @@
         text-shadow: modular-scale(-20) modular-scale(-20) modular-scale(-16)
                      lighten($header_shadow, 60%);
 
-        a {
-            text-decoration: none;
+        a { text-decoration: none; }
+    }
+
+    .subtitle {
+        font:{
+            family: $sans;
+            weight: normal;
         }
+        color: $subheader_link;
+        padding: 0;
+        margin: 1em 0 0;
+
+        text-shadow: modular-scale(-20) modular-scale(-20) modular-scale(-16)
+                     lighten($header_shadow, 60%);
     }
 
     &:hover {
-        .logo, .logotype {
-            top: modular-scale(-10);
+        .logo, .logotype, .subtitle {
             @include transition(all 0.3s ease-out);
+        }
+
+        .logo {
+            top: modular-scale(-10);
         }
 
         .logotype {
             text-shadow: modular-scale(-16) modular-scale(-16) modular-scale(-12)
                          lighten($header_shadow, 60%);
         }
-    }
 
-    .subtitle {
-        font-family: $special;
-        font-weight: normal;
-        padding: 0;
-        margin: 1em 0 0;
+        .subtitle {
+            text-shadow: modular-scale(-18) modular-scale(-18) modular-scale(-14)
+                         lighten($header_shadow, 60%);
+        }
     }
 }

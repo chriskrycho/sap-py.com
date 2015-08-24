@@ -1,6 +1,35 @@
-.episode {
-    max-width: modular-scale(19);
+@import "bourbon/bourbon";
+@import "variables";
+
+
+.item {
+    max-width: modular-scale(18);
     margin: 0 auto modular-scale(8);
+}
+
+.content {
+    font-size: modular-scale(1);
+}
+
+.page {
+    @extend .item;
+
+    .page_title {
+        font: {
+            family: $special;
+            size: modular-scale(5);
+            weight: normal;
+        }
+        color: $main_heading;
+        text-align: center;
+    }
+}
+
+.episode {
+    @extend .item;
+    padding-bottom: modular-scale(2);
+
+    &:first-of-type { margin-top: modular-scale(2); }
 
     .episode_title {
         font: {
@@ -10,20 +39,45 @@
         }
         color: $main_heading;
         text-align: center;
+        margin: 0;
+
+        a {
+            border-bottom: 2px solid $main_link;
+            padding-bottom: 0;
+            text-decoration: none;
+
+            &:hover {
+                border-bottom-color: $main_link_hover;
+                padding-bottom: 2px;
+            }
+        }
     }
 
-    .media {
-        $width: strip-units(modular-scale(-2));
-        width: percentage($width);
+    .media {}
+
+    .media_item {
+        $width: percentage(strip-units(modular-scale(-2)));
+        width: $width;
         margin: 0 auto;
         display: block;
     }
 
-    .content {
-        font: {
-            weight: 300;
-            size: modular-scale(2);
+    .meta {
+        margin: 0 0 1em;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .meta_item {
+        display: inline-block;
+
+        &::after {
+            font-style: normal;
+            content: '‣';
+            display: inline-block;
+            padding: 0 modular-scale(-4);
         }
-        text-align: left;
+
+        &:last-child::after { content: none; }
     }
 }

@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-  <title>{% block head_title %}{% endblock %}</title>
+  <title>{% block head_title %}{{ SITENAME }}{% endblock %}</title>
   {# Common metadata #}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -50,7 +50,7 @@
   <footer class="page_footer">
     <section id="footer_follow" class="">
       <h2 class="section-title">Follow the Show!</h2>
-      <ul>
+      <ul class="footer_list">
         {% for f in FOLLOW %}
           <li><a href="{{ FOLLOW[f] }}">{{ f }}</a></li>
         {% endfor %}
@@ -58,7 +58,7 @@
     </section>
     <section id="footer_social" class="">
       <h2 class="section-title">Follow the Hosts!</h2>
-      <ul>
+      <ul class="footer_list">
         {% for id in IDENTITY %}
           <li><a href="{{ IDENTITY[id] }}">{{ id }}</a></li>
         {% endfor %}

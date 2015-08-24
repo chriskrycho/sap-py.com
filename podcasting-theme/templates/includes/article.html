@@ -1,14 +1,21 @@
 <article class="episode">
-  <h1 class="episode_title">{{ article.title }}</h1>
-  <section class="meta">{{ article.locale_date }}</section>
-  <section class="content">
-    <audio class="media"
+  <h1 class="episode_title"><a href="{{ article.url }}">
+    {{ article.title }}
+  </a></h1>
+  <section class="meta">
+    <span class="date meta_item">{{ article.locale_date }}</span><!--
+   --><span class="summary meta_item">{{ article.summary }}</span>
+  </section>
+  <section class="media">
+    <audio class="media_item"
            controls preload="metadata"
            src="{{ AUDIO_BASE_URL }}/{{article.audio }}">
       {% if article.transcript %}
         <track kind="captions" src="{{ article.transcript }}" srclang="en" label="English">
       {% endif %}
     </audio>
-    {{ article.content }}
+    {% if output_file != 'index.html' %}
+      <section class="content">{{ article.content }}</section>
+    {% endif %}
   </section>
 </article>

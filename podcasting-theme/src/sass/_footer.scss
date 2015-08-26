@@ -2,11 +2,16 @@
 @import "variables";
 
 .page_footer {
-    min-height: 20vh;
+    min-height: 35vh;
     background: $footer_bg;
     color: $footer_fg;
     width: 100%;
     font-size: modular-scale(1);
+    padding-bottom: modular-scale(2);
+
+    @include display(flex);
+    @include flex-flow(row wrap);
+    @include justify-content(center);
 
     a, a:visited {
         color: $footer_link;
@@ -16,7 +21,16 @@
         }
     }
 
+    .footer_block {
+        @include flex(1 0 modular-scale(14));
+        text-align: center;
+        padding-bottom: modular-scale(2);
+    }
+
     .section-title {
+        display: inline-block;
+        line-height: 1;
+        border-bottom: 1px solid;
         font: {
             size: modular-scale(2);
             weight: normal;
@@ -25,14 +39,8 @@
     }
 
     .footer_list {
-        margin: {
-            top: 0;
-            bottom: 0;
-        }
-
-        padding: {
-            top: 0;
-            bottom: 0;
-        }
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
 }

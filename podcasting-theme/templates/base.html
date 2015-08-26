@@ -44,20 +44,21 @@
       <h2 class="subtitle">{{ SUBTITLE }}</h2>
     </a>
   </header>
-  <div id="episodes">
+  <div id="episodes" class="content_block">
     {% block content %}{% endblock %}
   </div>
   <footer class="page_footer">
-    <section id="footer_follow" class="">
-      <h2 class="section-title">Follow the Show!</h2>
+    <section id="footer_follow" class="footer_block">
+      <h2 class="section-title">Follow the Show</h2>
       <ul class="footer_list">
-        {% for f in FOLLOW %}
-          <li><a href="{{ FOLLOW[f] }}">{{ f }}</a></li>
-        {% endfor %}
+        <li><a href="{{ FOLLOW['iTunes'] }}">iTunes</a></li>
+        <li><a href="{{ FOLLOW['RSS'] }}">RSS</a></li>
+        <li><a href="{{ FOLLOW['Twitter'] }}">Twitter</a></li>
+        <li><a href="{{ FOLLOW['App.net'] }}">App.net</a></li>
       </ul>
     </section>
-    <section id="footer_social" class="">
-      <h2 class="section-title">Follow the Hosts!</h2>
+    <section id="footer_social" class="footer_block">
+      <h2 class="section-title">More From the Hosts</h2>
       <ul class="footer_list">
         {% for id in IDENTITY %}
           <li><a href="{{ IDENTITY[id] }}">{{ id }}</a></li>

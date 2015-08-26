@@ -2,17 +2,26 @@
 @import "variables";
 
 
-.item {
-    max-width: modular-scale(18);
-    margin: 0 auto modular-scale(8);
-}
-
 .content {
     font-size: modular-scale(1);
 }
 
+.content_block {
+    min-height: 35vh;
+    max-width: percentage(strip-units(modular-scale(-1)));
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+
+._item {
+    max-width: modular-scale(18);
+    margin: 0 auto modular-scale(8);
+}
+
 .page {
-    @extend .item;
+    @extend ._item;
 
     .page_title {
         font: {
@@ -26,7 +35,7 @@
 }
 
 .episode {
-    @extend .item;
+    @extend ._item;
     padding-bottom: modular-scale(2);
 
     &:first-of-type { margin-top: modular-scale(2); }

@@ -7,7 +7,7 @@ one sappy couple---software programmer Chris Krycho and writer-mom Jaimie
 Krycho---as Jaimie trains with programs Codecademy and Treehouse for her first
 foray into programming. Insights, a-ha moments, and antics ensue.
 
-![A lovely picture of Chris and Jaimie](/images/hosts.png "The sappy hosts of sap.py")
+![Chris, Jaimie, and Ellie](/images/family.jpg "The sappy hosts of sap.py")
 
 When Chris isn’t busy coding, you can find him training for half-marathons,
 reading thick tomes, and writing things both technical and poetic. Jaimie is

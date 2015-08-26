@@ -7,7 +7,18 @@
         <generator>Feeder 2.5.12(2294); Mac OS X Version 10.10.5 (Build 14F27) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
-        <lastBuildDate>Tue, 25 Aug 2015 21:52:01 -0400</lastBuildDate>
+        <copyright>2015 Chris and Jaimie Krycho</copyright>
+        <managingEditor>Chris Krycho (hello@newrustacean.com)</managingEditor>
+        <webMaster>Chris Krycho (hello@newrustacean.com)</webMaster>
+        <pubDate>Wed, 26 Aug 2015 06:05:02 -0400</pubDate>
+        <lastBuildDate>Wed, 26 Aug 2015 06:05:02 -0400</lastBuildDate>
+        <image>
+            <url>http://www.sap-py.com/images/pythons_wbg_1400.png</url>
+            <title>Romantic Pythons!</title>
+            <link>http://www.sap-py.com</link>
+            <width>144</width>
+            <height>144</height>
+        </image>
         <atom:link href="http://www.sap-py.com/sap-py.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Chris and Jaimie Krycho</itunes:author>
         <itunes:subtitle>Who says programming can’t be romantic?</itunes:subtitle>

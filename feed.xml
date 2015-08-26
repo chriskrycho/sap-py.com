@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>Sap.py</title>
+        <link>http://www.sap-py.com</link>
+        <description>A husband and wife talk about the wife's experience learning Python. Who says programming can't be romantic?</description>
+        <generator>Feeder 2.5.12(2294); Mac OS X Version 10.10.5 (Build 14F27) http://reinventedsoftware.com/feeder/</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en</language>
+        <lastBuildDate>Tue, 25 Aug 2015 21:45:52 -0400</lastBuildDate>
+        <atom:link href="http://www.sap-py.com/sap-py.xml" rel="self" type="application/rss+xml"/>
+        <itunes:author>Chris and Jaimie Krycho</itunes:author>
+        <itunes:subtitle>Who says programming can’t be romantic?</itunes:subtitle>
+        <itunes:keywords>python,marriage,romance,programming</itunes:keywords>
+        <itunes:image href="http://www.sap-py.com/images/pythons_wbg_1400.png"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>Chris and Jaimie Krycho</itunes:name>
+            <itunes:email>hello@sap-py.com</itunes:email>
+        </itunes:owner>
+        <itunes:block>no</itunes:block>
+        <itunes:category text="Technology">
+            <itunes:category text="Software How-To"/>
+        </itunes:category>
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Personal Journals"/>
+        </itunes:category>
+        <itunes:category text="Kids &amp; Family"/>
+        <item>
+            <title>0: When Our Daughters Are Sleeping</title>
+            <link>http://www.sap-py.com/0/</link>
+            <description><![CDATA[<p>We talk about Python, functions, the differences between <a href="https://www.codecademy.com">Codecademy</a> and <a href="https://teamtreehouse.com">Treehouse</a>, and why programming is interesting to Jaimie. Also, we come up with a show title, and eventually even a theme song. (Jaimie definitely came up with the actual idea for the theme song. She’s a boss.)</p>]]></description>
+            <pubDate>Tue, 25 Aug 2015 21:42:05 -0400</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com/0.m4a" length="6230395" type="audio/x-m4a"/>
+            <guid isPermaLink="false">A0263C2B-741B-4A69-B2FF-8B6171B597D9</guid>
+            <itunes:author>Chris Krycho and Jaimie Krycho</itunes:author>
+            <itunes:subtitle>A little about us, and the beginning of Jaimie's adventures in Python.</itunes:subtitle>
+            <itunes:summary><![CDATA[A little about us, and the beginning of Jaimie's adventures in Python.]]></itunes:summary>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>12:42</itunes:duration>
+        </item>
+    </channel>
+</rss>

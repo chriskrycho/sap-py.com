@@ -8,10 +8,10 @@
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2015 Chris and Jaimie Krycho</copyright>
-        <managingEditor>hello@sap-py.com</managingEditor>
-        <webMaster>hello@sap-py.com</webMaster>
-        <pubDate>Fri, 28 Aug 2015 13:00:07 -0400</pubDate>
-        <lastBuildDate>Fri, 28 Aug 2015 13:00:07 -0400</lastBuildDate>
+        <managingEditor>hello@sap-py.com (Chris and Jaimie Krycho)</managingEditor>
+        <webMaster>hello@sap-py.com (Chris and Jaimie Krycho)</webMaster>
+        <pubDate>Fri, 28 Aug 2015 13:01:45 -0400</pubDate>
+        <lastBuildDate>Fri, 28 Aug 2015 13:01:45 -0400</lastBuildDate>
         <image>
             <url>http://www.sap-py.com/images/pythons_wbg_1400.png</url>
             <title>Sap.py</title>

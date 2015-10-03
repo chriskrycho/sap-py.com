@@ -4,14 +4,14 @@
         <title>Sap.py</title>
         <link>http://www.sap-py.com</link>
         <description>A husband and wife talk about the wife's experience learning Python. Who says programming can't be romantic?</description>
-        <generator>Feeder 2.5.12(2294); Mac OS X Version 10.10.5 (Build 14F27) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 2.5.12(2294); Mac OS X Version 10.11 (Build 15A282b) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2015 Chris and Jaimie Krycho</copyright>
         <managingEditor>hello@sap-py.com (Chris and Jaimie Krycho)</managingEditor>
         <webMaster>hello@sap-py.com (Chris and Jaimie Krycho)</webMaster>
-        <pubDate>Fri, 28 Aug 2015 13:07:14 -0400</pubDate>
-        <lastBuildDate>Fri, 28 Aug 2015 13:07:14 -0400</lastBuildDate>
+        <pubDate>Sat, 03 Oct 2015 14:37:03 -0400</pubDate>
+        <lastBuildDate>Sat, 03 Oct 2015 14:37:03 -0400</lastBuildDate>
         <image>
             <url>http://www.sap-py.com/images/pythons_wbg_1400.png</url>
             <title>Sap.py</title>
@@ -37,6 +37,32 @@
             <itunes:category text="Personal Journals"/>
         </itunes:category>
         <itunes:category text="Kids &amp; Family"/>
+        <item>
+            <title>1: Mommy, I Have a Function For You!</title>
+            <link>http://www.sap-py.com/1/</link>
+            <description><![CDATA[<p>Jaimie continues her journey into the land of Python on Treehouse. A few of the highlights:</p>
+<ul>
+<li>Fun times with infinite loops, the command line, and <code>Ctrl-C</code></li>
+<li>Three-year-olds who pick up on the things their parents are talking about… sort of.</li>
+<li>How there aren’t necessarily <em>right</em> solutions to any given problem in programming.</li>
+</ul>]]></description>
+            <pubDate>Sat, 03 Oct 2015 14:30:00 -0400</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com/1.m4a" length="6045846" type="audio/x-m4a"/>
+            <guid isPermaLink="false">6D18F59F-FC87-46B5-9A31-59D3D5CD0A55</guid>
+            <itunes:author>Chris and Jaimie Krycho</itunes:author>
+            <itunes:subtitle>Infinite loops, three-year-olds, and “right” answers.</itunes:subtitle>
+            <itunes:summary><![CDATA[Infinite loops, three-year-olds, and “right” answers.
+
+Jaimie continues her journey into the land of Python on Treehouse. A few of the highlights:
+
+* Fun times with infinite loops, the command line, and Ctrl-C
+
+* Three-year-olds who pick up on the things their parents are talking about… sort of.
+
+* How there aren’t necessarily right solutions to any given problem in programming.]]></itunes:summary>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:duration>12:19</itunes:duration>
+        </item>
         <item>
             <title>0: When Our Daughters Are Sleeping</title>
             <link>http://www.sap-py.com/0/</link>

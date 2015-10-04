@@ -27,7 +27,7 @@ AUDIO_BASE_URL = '//www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com'
 IDENTITY = {'Chris': 'http://www.chriskrycho.com/',
             'Jaimie': 'http://www.jaimiekrycho.com/'}
 
-FOLLOW = {'iTunes': '',
+FOLLOW = {'iTunes': 'https://itunes.apple.com/us/podcast/sap.py/id1033841120?mt=2',
           'RSS': '/feed.xml',
           'Twitter': 'https://www.twitter.com/sappypodcast',
           'App.net': 'https://alpha.app.net/sappy'}

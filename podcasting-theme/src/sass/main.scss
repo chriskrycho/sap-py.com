@@ -11,5 +11,8 @@
 @import "content";
 @import "footer";
 
+// Tweaks for smaller screens.
+@import "media";
+
 // The following is *not* part of the main theme to extract.
 @import "sappy_tweaks";

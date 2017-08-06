@@ -2,7 +2,7 @@
 @import "variables";
 
 .page_footer {
-    min-height: 35vh;
+    min-height: 25vh;
     background: $footer_bg;
     color: $footer_fg;
     width: 100%;
@@ -30,7 +30,11 @@
     .section-title {
         display: inline-block;
         line-height: 1;
-        border-bottom: 1px solid;
+        width: 100%;
+        margin-top: 0;
+        padding: 0.55em 0 0.5em;
+        border-bottom: 3px solid $footer_header_border;
+        background: $footer_header_bg;
         font: {
             size: modular-scale(2);
             weight: normal;

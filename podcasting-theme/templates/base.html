@@ -16,6 +16,7 @@
   {% block item_meta %}{% endblock %}
   {# Common styles #}
   <link rel="stylesheet" href="/css/main.css" media="screen" title="main" charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   {# Allow item-specific styles #}
   {% block item_styles %}{% endblock %}
   {# Common scripts #}
@@ -51,17 +52,18 @@
     <section id="footer_follow" class="footer_block">
       <h2 class="section-title">Follow the Show</h2>
       <ul class="footer_list">
-        <li><a href="{{ FOLLOW['iTunes'] }}">iTunes</a></li>
-        <li><a href="{{ FOLLOW['RSS'] }}">RSS</a></li>
-        <li><a href="{{ FOLLOW['Twitter'] }}">Twitter</a></li>
-        <li><a href="{{ FOLLOW['App.net'] }}">App.net</a></li>
+        <li><a href="{{ FOLLOW['iTunes'] }}"><i class="fa fa-fw fa-music"></i> iTunes</a></li>
+        <li><a href="{{ FOLLOW['RSS'] }}"><i class="fa fa-fw fa-rss"></i> RSS</a></li>
+        <li><a href="{{ FOLLOW['Twitter'] }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
+        <li><a href="{{ FOLLOW['Overcast'] }}"><i class="fa fa-fw fa-play-circle"></i> Overcast</a></li>
+        <li><a href="{{ FOLLOW['PocketCasts'] }}"><i class="fa fa-fw fa-play-circle-o"></i> Pocket Casts</a></li>
       </ul>
     </section>
     <section id="footer_social" class="footer_block">
       <h2 class="section-title">More From the Hosts</h2>
       <ul class="footer_list">
         {% for id in IDENTITY %}
-          <li><a href="{{ IDENTITY[id] }}">{{ id }}</a></li>
+          <li><a href="{{ IDENTITY[id] }}"><i class="fa fa-fw fa-home"></i> {{ id }}</a></li>
         {% endfor %}
       </ul>
     </section>

@@ -2,32 +2,31 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
         <title>Sap.py</title>
-        <link>http://www.sap-py.com</link>
+        <link>http://sap-py.krycho.com</link>
         <description>A husband and wife talk about the wife's experience learning Python. Who says programming can't be romantic?</description>
-        <generator>Feeder 2.5.12(2294); Mac OS X Version 10.11 (Build 15A282b) http://reinventedsoftware.com/feeder/</generator>
+        <generator>Feeder 3 3.1.6(2632); Mac OS X Version 10.11.3 (Build 15D21) http://reinventedsoftware.com/feeder/</generator>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <language>en</language>
         <copyright>2015 Chris and Jaimie Krycho</copyright>
-        <managingEditor>hello@sap-py.com (Chris and Jaimie Krycho)</managingEditor>
-        <webMaster>hello@sap-py.com (Chris and Jaimie Krycho)</webMaster>
-        <pubDate>Sat, 03 Oct 2015 14:37:03 -0400</pubDate>
-        <lastBuildDate>Sat, 03 Oct 2015 14:37:03 -0400</lastBuildDate>
+        <managingEditor>hello@sap-py.krycho.com (Chris and Jaimie Krycho)</managingEditor>
+        <webMaster>hello@sap-py.krycho.com (Chris and Jaimie Krycho)</webMaster>
+        <pubDate>Tue, 08 Mar 2016 08:04:15 -0500</pubDate>
+        <lastBuildDate>Tue, 08 Mar 2016 08:04:16 -0500</lastBuildDate>
         <image>
-            <url>http://www.sap-py.com/images/pythons_wbg_1400.png</url>
+            <url>http://sap-py.krycho.com/images/pythons_wbg_1400.png</url>
             <title>Sap.py</title>
-            <link>http://www.sap-py.com</link>
+            <link>http://sap-py.krycho.com</link>
             <width>144</width>
             <height>144</height>
         </image>
-        <atom:link href="http://www.sap-py.com/sap-py.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="http://sap-py.krycho.com/feed.xml" rel="self" type="application/rss+xml"/>
         <itunes:author>Chris and Jaimie Krycho</itunes:author>
         <itunes:subtitle>Who says programming can’t be romantic?</itunes:subtitle>
         <itunes:keywords>python,marriage,romance,programming</itunes:keywords>
-        <itunes:image href="http://www.sap-py.com/images/pythons_wbg_1400.png"/>
-        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="http://sap-py.krycho.com/images/pythons_wbg_1400.png"/>
         <itunes:owner>
             <itunes:name>Chris and Jaimie Krycho</itunes:name>
-            <itunes:email>hello@sap-py.com</itunes:email>
+            <itunes:email>hello@sap-py.krycho.com</itunes:email>
         </itunes:owner>
         <itunes:block>no</itunes:block>
         <itunes:category text="Technology">
@@ -38,8 +37,42 @@
         </itunes:category>
         <itunes:category text="Kids &amp; Family"/>
         <item>
+            <title>2: The World Needs More Female Programmers</title>
+            <link>http://sap-py.krycho.com/2/</link>
+            <description><![CDATA[<p>Classes and inheritance, making a game, and sticking with it</p>
+<p>We catch up on what Jaimie has (and sometimes hasn’t) been doing since October.</p>
+<ul>
+<li>Learning about <a href="https://docs.python.org/3.5/reference/compound_stmts.html#class">classes</a> and <a href="https://docs.python.org/3.5/tutorial/classes.html#tut-inheritance">inheritance</a></li>
+<li>Having a hard time with <a href="https://docs.python.org/3.5/tutorial/classes.html#class-objects"><code>self</code></a></li>
+<li>Building a small role-playing game (and slaying some dragons along the way!)</li>
+<li>Dealing with discouragement and the challenge of learning in limited amounts of time (with small children to take care of)</li>
+<li>The value of support and having a physically-present person available to help when you get stuck</li>
+</ul>
+]]></description>
+            <pubDate>Tue, 08 Mar 2016 08:04:03 -0500</pubDate>
+            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.krycho.com/2.m4a" length="4746902" type="audio/x-m4a"/>
+            <guid isPermaLink="false">B61320C2-7D8A-4EC8-85EB-9D427EC3CD06</guid>
+            <itunes:author>Chris and Jaimie Krycho</itunes:author>
+            <itunes:summary><![CDATA[Classes and inheritance, making a game, and sticking with it
+
+We catch up on what Jaimie has (and sometimes hasn’t) been doing since October.
+
+Classes and inheritance, making a game, and sticking with it
+
+* Learning about classes and inheritance
+
+* Having a hard time with self
+
+* Building a small role-playing game (and slaying some dragons along the way!)
+
+* Dealing with discouragement and the challenge of learning in limited amounts of time (with small children to take care of)
+
+* The value of support and having a physically-present person available to help when you get stuck]]></itunes:summary>
+            <itunes:duration>12:26</itunes:duration>
+        </item>
+        <item>
             <title>1: Mommy, I Have a Function For You!</title>
-            <link>http://www.sap-py.com/1/</link>
+            <link>http://sap-py.krycho.com/1/</link>
             <description><![CDATA[<p>Jaimie continues her journey into the land of Python on Treehouse. A few of the highlights:</p>
 <ul>
 <li>Fun times with infinite loops, the command line, and <code>Ctrl-C</code></li>
@@ -47,7 +80,7 @@
 <li>How there aren’t necessarily <em>right</em> solutions to any given problem in programming.</li>
 </ul>]]></description>
             <pubDate>Sat, 03 Oct 2015 14:30:00 -0400</pubDate>
-            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com/1.m4a" length="6045846" type="audio/x-m4a"/>
+            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.krycho.com/1.m4a" length="6045846" type="audio/x-m4a"/>
             <guid isPermaLink="false">6D18F59F-FC87-46B5-9A31-59D3D5CD0A55</guid>
             <itunes:author>Chris and Jaimie Krycho</itunes:author>
             <itunes:subtitle>Infinite loops, three-year-olds, and “right” answers.</itunes:subtitle>
@@ -60,20 +93,18 @@ Jaimie continues her journey into the land of Python on Treehouse. A few of the 
 * Three-year-olds who pick up on the things their parents are talking about… sort of.
 
 * How there aren’t necessarily right solutions to any given problem in programming.]]></itunes:summary>
-            <itunes:explicit>no</itunes:explicit>
             <itunes:duration>12:19</itunes:duration>
         </item>
         <item>
             <title>0: When Our Daughters Are Sleeping</title>
-            <link>http://www.sap-py.com/0/</link>
+            <link>http://sap-py.krycho.com/0/</link>
             <description><![CDATA[<p>We talk about Python, functions, the differences between <a href="https://www.codecademy.com">Codecademy</a> and <a href="https://teamtreehouse.com">Treehouse</a>, and why programming is interesting to Jaimie. Also, we come up with a show title, and eventually even a theme song. (Jaimie definitely came up with the actual idea for the theme song. She’s a boss.)</p>]]></description>
             <pubDate>Fri, 28 Aug 2015 13:00:05 -0400</pubDate>
-            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com/0.m4a" length="6230395" type="audio/x-m4a"/>
+            <enclosure url="http://www.podtrac.com/pts/redirect.m4a/cdn.sap-py.krycho.com/0.m4a" length="6230395" type="audio/x-m4a"/>
             <guid isPermaLink="false">A0263C2B-741B-4A69-B2FF-8B6171B597D9</guid>
             <itunes:author>Chris Krycho and Jaimie Krycho</itunes:author>
             <itunes:subtitle>A little about us, and the beginning of Jaimie's adventures in Python.</itunes:subtitle>
             <itunes:summary><![CDATA[A little about us, and the beginning of Jaimie's adventures in Python.]]></itunes:summary>
-            <itunes:explicit>no</itunes:explicit>
             <itunes:duration>12:42</itunes:duration>
         </item>
     </channel>

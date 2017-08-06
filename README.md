@@ -11,4 +11,5 @@ Since a lot of the point of this learning-to-program podcast is to encourage
 other new programmers, it seemed good to use open-source Python tools to build
 the website!
 
-Feel free to follow up with us by shooting an email to hello [at] sap-py.com!
+Feel free to follow up with us by shooting an email to
+hello [at] sap-py.krycho.com!

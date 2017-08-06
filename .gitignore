@@ -52,3 +52,8 @@ bourbon
 .idea/inspectionProfiles
 .idea/copyright
 
+# -- Generated output -- #
+output
+
+# -- Recordings -- #
+recordings

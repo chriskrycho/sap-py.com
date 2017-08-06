@@ -21,7 +21,7 @@ SUBTITLE = "Who says programming can't be romantic?"
 # `https://cdn.my-site.com/episode/05.mp3`. It may be helpful to override this
 # value in the production configuration (publishconf.py) and use local URLs
 # for development or for validating a show before publishing it.
-AUDIO_BASE_URL = '//www.podtrac.com/pts/redirect.m4a/cdn.sap-py.com'
+AUDIO_BASE_URL = '//www.podtrac.com/pts/redirect.m4a/cdn.sap-py.krycho.com'
 
 # [Indie-web](https://indiewebcamp.com) identity setup
 IDENTITY = {'Chris': 'http://www.chriskrycho.com/',
@@ -30,4 +30,5 @@ IDENTITY = {'Chris': 'http://www.chriskrycho.com/',
 FOLLOW = {'iTunes': 'https://itunes.apple.com/us/podcast/sap.py/id1033841120?mt=2',
           'RSS': '/feed.xml',
           'Twitter': 'https://www.twitter.com/sappypodcast',
-          'App.net': 'https://alpha.app.net/sappy'}
+          'Overcast': 'https://overcast.fm/itunes1033841120/sap-py',
+          'PocketCasts': 'http://pca.st/t583'}

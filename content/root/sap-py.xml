@@ -29,6 +29,7 @@
             <itunes:email>hello@sap-py.krycho.com</itunes:email>
         </itunes:owner>
         <itunes:block>no</itunes:block>
+        <itunes:explicit>no</itunes:explicit>
         <itunes:category text="Technology">
             <itunes:category text="Software How-To"/>
         </itunes:category>

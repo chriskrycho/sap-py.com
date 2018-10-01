@@ -1,3 +1,5 @@
+# coding: utf-8
+
 """
 Define the Podcasting Theme configurable settings. You should import this in
 your pelicanconf.py file -- it does not matter where in the file you import it.
